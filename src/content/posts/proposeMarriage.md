@@ -4,8 +4,9 @@ date: 2024-10-07
 lastMod: 2024-10-07
 summary: 2024年10月7日是我人生中极为重要的日子，我向我爱的人求婚了！这一天激动、焦虑、忐忑、紧张充斥着我的内心
 category: 生活
-# tags: [Astro, Gyoza]
+tags: ['情感']
 sticky: 1
+comments: false
 ---
 
 ### 01
