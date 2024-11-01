@@ -19,7 +19,7 @@ comments: false
 
 ![初识](https://tian521.oss-cn-beijing.aliyuncs.com/blog/firstAcquaintance.jpg)
 
-我的生活也因为她的出现发生了改变，打游戏的时间正被逐渐在缩减，改Bug时间开始占据上风。
+我的生活也因为她的出现而发生了改变，打游戏的时间正被逐渐缩减，改Bug时间开始占据上风。
 
 不过从平时聊天和通电话的过程我感觉她是个很温柔的人`（后面发现她只对不熟的人这样）`
 
