@@ -10,7 +10,7 @@
   },
   "author": {
     "name": "FrankHuang",
-    "avatar": "http://sn8siqtr5.hn-bkt.clouddn.com/avatar.jpg",
+    "avatar": "https://public.miss-you.top/avatar.jpg",
     "twitterId": ""
   },
   "hero": {
@@ -88,7 +88,7 @@
     "serverURL": "http://10.11.1.155:5000"
   },
   "sponsor": {
-    "wechat": "http://sn8siqtr5.hn-bkt.clouddn.com/wechatSponsor.jpg"
+    "wechat": "https://public.miss-you.top/wechatSponsor.jpg"
   },
   "analytics": {
     "enable": false,

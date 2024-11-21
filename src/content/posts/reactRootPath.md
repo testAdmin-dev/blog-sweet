@@ -64,9 +64,9 @@ alias: {
 ### 配置好后我们还需要它像相对路径一样有文件别名提示的功能**
 #### 一、 首先需要下载插件`Path Intellisense`
 **并且需要在插件中打开本地设置并配置**
-![img](http://sn8siqtr5.hn-bkt.clouddn.com/reactRootPath1.png)
+![img](https://public.miss-you.top/reactRootPath1.png)
 
-![img](http://sn8siqtr5.hn-bkt.clouddn.com/reactRootPath2.png)
+![img](https://public.miss-you.top/reactRootPath2.png)
 
 
 	

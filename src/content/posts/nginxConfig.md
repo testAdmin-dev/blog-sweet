@@ -18,7 +18,7 @@ comments: true
 ## 一、查看服务器中是否有安装nginx
 出现nginx地址则代表服务器已有nginx，否则需要安装nginx
 此图片是已安装nginx
-![img](http://sn8siqtr5.hn-bkt.clouddn.com/nginxConfig1.png)
+![img](https://public.miss-you.top/nginxConfig1.png)
 &nbsp;
 &nbsp;
 
@@ -36,7 +36,7 @@ rpm -Uvh http://nginx.org/packages/centos/7/noarch/RPMS/nginx-release-centos-7-0
 yum install -y nginx
 ```
 
-![img](http://sn8siqtr5.hn-bkt.clouddn.com/nginxConfig2.png)
+![img](https://public.miss-you.top/nginxConfig2.png)
 出现此结果代表nginx安装成功~
 也可使用`nginx -v`来查看版本号，若无法使用nginx全局命令可百度配置
 
@@ -257,7 +257,7 @@ const CompressionWebpackPlugin = require('compression-webpack-plugin');
 ```
 
 * 运行打包`npm run build`，很显然打包出来的文件大小相差还是很大的
-![img](http://sn8siqtr5.hn-bkt.clouddn.com/nginxConfig3.png)
+![img](https://public.miss-you.top/nginxConfig3.png)
 * 配置`nginx.conf`，在`server`中添加配置
 ```nginx
 gzip on;

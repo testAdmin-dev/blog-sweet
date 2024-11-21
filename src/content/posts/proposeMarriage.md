@@ -18,7 +18,7 @@ comments: true
 
 2022年11月9日这天本是再平凡不过的一天，也就在这天我听说有位美女遇到代码上的问题，本着乐于助人的心理，我倒要加个好友看看这个问题有多难。殊不知命运的齿轮从此刻开始转动。  
 
-![初识](http://sn8siqtr5.hn-bkt.clouddn.com/firstAcquaintance.jpg)
+![初识](https://public.miss-you.top/firstAcquaintance.jpg)
 
 看着她描述的问题，我对她的处境感同身受，代码写不出、Bug 难以定位，导致加班和项目逾期。  
 这让我想起我初入职场的时候，那时候的我又何尝不是这样，很多问题不敢去请教导师，怕觉得问题太Low被人轻视，以至于一度怀疑自己是否适合这一行，最后只能靠自己一个个摸索、踩坑，甚至加班来弥补。  
@@ -63,7 +63,7 @@ comments: true
 之所以说是“推迟”，是因为我每次都没能说出口，话到嘴边又会被我咽回去，我就像在黑暗中摸索的人，被胆怯紧紧束缚。  
 我觉得这样下去不行，这天我特地嘱托朋友在微信时不时给我发个消息，想给自己多一些勇气。
 
-![告白1](http://sn8siqtr5.hn-bkt.clouddn.com/confession_1.png)
+![告白1](https://public.miss-you.top/confession_1.png)
 
 是的，我又胆怯了。
 
@@ -115,7 +115,7 @@ comments: true
 所以之后我都是拉着她一起去逛首饰店，不过幸运的是后面看中一款特别满意的款式，找个周末偷偷找老板拿下！
 
 附上部分聊天记录，感谢好朋友们
-![聊天记录](http://sn8siqtr5.hn-bkt.clouddn.com/proposeMarriageLog.png)
+![聊天记录](https://public.miss-you.top/proposeMarriageLog.png)
 
 ### 05
 
@@ -124,7 +124,7 @@ comments: true
 我提前订好了海边民宿，小心翼翼地把戒指和头纱藏在包的暗层里。一切准备就绪，我的心情既激动又紧张，仿佛怀揣着世界上最珍贵的宝贝，等待着那一刻的到来。  
 
 到了目的地后已是凌晨三点了，然而，事情并没有我想象中那么顺利，我一次次拨打民宿的电话，那嘟嘟嘟的声音在寂静的夜里显得格外刺耳，却始终无人接听。而这里偏偏是一家没有前台的民宿，我和她在小区里转来转去，焦急和愧疚充斥着我的内心，我烦躁是因为我觉得这个意外可能会破坏我的求婚计划，对不起她是因为要是我能提前和民宿沟通好，就不会出现这样的状况了。
-![通话记录](http://sn8siqtr5.hn-bkt.clouddn.com/proposeMarriage7.jpg)
+![通话记录](https://public.miss-you.top/proposeMarriage7.jpg)
 
 就在我陷入深深的自责与慌乱之时，我转头看向她。昏黄的路灯洒在她的脸上，我惊讶地发现，她的脸上没有一丝不耐烦和生气，她的平静犹如镇定剂一样扎进我心里。我们又开始寻找别的民宿，幸运的是，终于有一家民宿接了电话。等我们住进去洗完澡，已经快五点了，看着她疲惫地打着哈欠，眼中流露出掩饰不住的困意，我知道，原本计划好的日出求婚只能无奈地推迟到第二天了。
 
@@ -135,5 +135,5 @@ comments: true
 > 这一刻是我们爱情的升华，欢迎欣赏
 > 
 <video width="99%" controls> 
-  <source src="http://sn8siqtr5.hn-bkt.clouddn.com/propose_marriage.mp4" type="video/mp4"> 
+  <source src="https://public.miss-you.top/propose_marriage.mp4" type="video/mp4"> 
 </video>
