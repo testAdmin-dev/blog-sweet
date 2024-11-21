@@ -1,0 +1,43 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import {
+  CommonHead,
+  WebAnalytics,
+  ThemeLoader,
+  AccentColorInjector,
+  PrintVersion,
+} from '@/components/head'
+import { BackToTopFAB } from '@/components/BackToTopFAB'
+import { ToastContainer } from '@/components/ToastContainer'
+import { ModalStack } from '@/components/ui/modal'
+import { site } from '@/config.json'
+import '@/styles/global.css'
+import 'tdesign-react/es/style/index.css';
+
+interface Props {
+  title?: string
+  description?: string
+  image?: string
+}
+
+const { title, description, image } = Astro.props
+---
+
+<!doctype html>
+<html lang={site.lang}>
+  <head>
+    <CommonHead title={title} description={description} image={image} />
+    <WebAnalytics />
+    <ThemeLoader />
+    <AccentColorInjector />
+    <PrintVersion />
+    <ViewTransitions />
+  </head>
+  <body>
+    <slot />
+
+    <BackToTopFAB client:only="react" />
+    <ToastContainer client:only="react" />
+    <ModalStack client:only="react" />
+  </body>
+</html>

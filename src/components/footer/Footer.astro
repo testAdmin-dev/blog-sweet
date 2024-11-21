@@ -1,0 +1,38 @@
+---
+import { ThemeSwitch } from './ThemeSwitch'
+import { author, footer } from '@/config.json'
+import { getAllPostsWordCount } from '@/utils/content'
+import { RunningDays } from './RunningDays'
+import VisitsLog from './VisitsLog'
+import Link from './Link.astro'
+
+const sinceYear = new Date(footer.startTime).getFullYear()
+const thisYear = new Date().getFullYear()
+const copyDate = sinceYear === thisYear ? thisYear : `${sinceYear} - ${thisYear}`
+
+const wordCount = await getAllPostsWordCount()
+
+const wordCountStr = (wordCount / 1000).toFixed(1) + 'k'
+---
+
+<footer class="relative z-1 py-8 px-4 md:px-8 border-t border-primary text-secondary text-sm">
+  <div class="text-center space-y-2">
+    <div class="space-x-1">
+      <span>&copy;{copyDate} <Link href="/">{author.name}</Link>.</span>
+    </div>
+    <div>
+      <Link href="https://beian.miit.gov.cn/">赣ICP备2024049135号</Link>
+    </div>
+    <div>
+      <RunningDays client:only="react" />
+      <span class="select-none opacity-50">|</span>
+      <span>共嘚嘚了 {wordCountStr} 字</span>
+    </div>
+    <VisitsLog client:load>
+      <span class="select-none opacity-50">|</span>
+    </VisitsLog>
+  </div>
+  <div class="mt-4 flex justify-center">
+    <ThemeSwitch client:only="react" />
+  </div>
+</footer>

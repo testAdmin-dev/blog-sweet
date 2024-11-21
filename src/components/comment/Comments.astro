@@ -1,0 +1,9 @@
+---
+import { Waline } from './Waline/Waline'
+import { waline } from '@/config.json'
+const { articleId } = Astro.props
+---
+
+<div>
+  {waline.serverURL && <Waline {...waline} client:idle articleId={articleId} />}
+</div>

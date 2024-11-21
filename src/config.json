@@ -1,0 +1,106 @@
+{
+  "site": {
+    "url": "https://miss-you.top",
+    "title": "Frank空间",
+    "description": "黄海欣的个人博客",
+    "keywords": "黄海欣的个人博客",
+    "lang": "zh-CN",
+    "favicon": "/favicon.ico",
+    "appleTouchIcon": "/apple-touch-icon.png"
+  },
+  "author": {
+    "name": "FrankHuang",
+    "avatar": "http://sn8siqtr5.hn-bkt.clouddn.com/avatar.jpg",
+    "twitterId": ""
+  },
+  "hero": {
+    "name": "Frank",
+    "bio": "我是一名前端开发工程师，喜欢React和Node，也是未来的Python开发工程师",
+    "description": [
+      "算命的说我命好。",
+      "作者：oopsweb@163.com"
+    ],
+    "socials": [
+      {
+        "name": "Github",
+        "icon": "icon-github",
+        "url": "https://github.com/testAdmin-dev/blog-sweet",
+        "color": "rgb(24, 23, 23)"
+      }
+    ],
+    "yiyan": "渴望出类拔萃却难以脚踏实地"
+  },
+  "color": {
+    "accent": [
+      { "light": "#F55555", "dark": "#FCCF31" },
+      { "light": "#0396FF", "dark": "#ABDCFF" },
+      { "light": "#fb7287", "dark": "#99D8CF" },
+      { "light": "#F072B6", "dark": "#FFF886" },
+      { "light": "#9F44D3", "dark": "#E2B0FF" },
+      { "light": "#FF6666", "dark": "#A1CCD1" },
+      { "light": "#F6416C", "dark": "#838BC6" },
+      { "light": "#32CCBC", "dark": "#90F7EC" },
+      { "light": "#33A6B8", "dark": "#79F1A4" },
+      { "light": "#F55555", "dark": "#FCCF31" }
+    ],
+    "bg": {
+      "primary": { "light": "#ffffff", "dark": "#1c1c1e" },
+      "secondary": { "light": "#f4f4f5", "dark": "#27272a" }
+    },
+    "text": {
+      "primary": { "light": "#373a3c", "dark": "#ffffff" },
+      "secondary": { "light": "#71717a", "dark": "#d1d5db" }
+    },
+    "border": {
+      "primary": { "light": "#e4e4e7", "dark": "#3f3f46" }
+    }
+  },
+  "menus": [
+    {
+      "name": "首页",
+      "link": "/",
+      "icon": "icon-pantone"
+    },
+    {
+      "name": "归档",
+      "link": "/archives",
+      "icon": "icon-archive"
+    },
+    {
+      "name": "关于",
+      "link": "/about",
+      "icon": "icon-ghost"
+    },
+    {
+      "name": "工具",
+      "link": "/utils",
+      "icon": "icon-hearts",
+      "hide": true
+    }
+  ],
+  "posts": {
+    "perPage": 10
+  },
+  "footer": {
+    "startTime": "2024-10-30"
+  },
+  "waline": {
+    "serverURL": "http://10.11.1.155:5000"
+  },
+  "sponsor": {
+    "wechat": "http://sn8siqtr5.hn-bkt.clouddn.com/wechatSponsor.jpg"
+  },
+  "analytics": {
+    "enable": false,
+    "google": {
+      "measurementId": ""
+    },
+    "umami": {
+      "serverUrl": "",
+      "websiteId": ""
+    },
+    "microsoftClarity": {
+      "projectId": ""
+    }
+  }
+}
