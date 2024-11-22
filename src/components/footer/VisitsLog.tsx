@@ -20,7 +20,7 @@ const VisitsLog = ({ children }: VisitsLogProps) => {
     const res = await getVisitorsNumber();
 
     if (!res) return;
-    console.log(res)
+
     setVisitLogInfo({
       people_number: res?.people_number || 0,
       total_number: res?.total_number || 0,

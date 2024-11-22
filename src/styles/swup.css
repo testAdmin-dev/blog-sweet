@@ -5,3 +5,7 @@ html.is-changing .swup-transition-fade {
 html.is-animating .swup-transition-fade {
   opacity: 0;
 }
+
+html .swup-progress-bar {
+  background-color: theme('colors.accent');
+}

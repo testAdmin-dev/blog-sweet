@@ -68,8 +68,7 @@ export function Waline({ articleId }: { articleId: number }) {
   const [commentSubmitLoading, setCommentSubmitLoading] = useState(false);
 
   useEffect(() => {
-    onLoad()
-    console.log(articleId)
+    onLoad();
   }, [articleId])
 
   const onLoad = async () => {
@@ -87,14 +86,6 @@ export function Waline({ articleId }: { articleId: number }) {
     if (context?.e?.keyCode === 13) return;
 
     const result = await commentForm?.current?.validate()
-    // const formData = commentForm?.current?.getFieldsValue(['content']) || {
-    //   name: '',
-    //   content: ''
-    // };
-
-    // console.log(formData)
-
-    // return
 
     if (result === true) {
       const formData = commentForm?.current?.getFieldsValue(['content']) || {
@@ -118,6 +109,7 @@ export function Waline({ articleId }: { articleId: number }) {
         setCommentSubmitLoading(false);
         return;
       }
+      MessagePlugin.success('感谢您的评论~');
       onLoad();
       onCancelCommentModal();
     }

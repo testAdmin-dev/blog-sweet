@@ -21,6 +21,9 @@ import swup from '@swup/astro'
 // https://astro.build/config
 export default defineConfig({
   site: site.url,
+  // server: {
+  //   port: 3000,
+  // },
   integrations: [
     tailwind(),
     react(),
@@ -30,6 +33,11 @@ export default defineConfig({
       animationClass: 'swup-transition-',
       containers: ['main'],
       morph: ['[component-export="Provider"]'],
+      cache: true,
+      preload: true,
+      accessibility: true,
+      progress: true,
+      loadOnIdle: true
     }),
   ],
   markdown: {
