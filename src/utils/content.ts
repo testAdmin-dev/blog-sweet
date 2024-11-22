@@ -7,7 +7,6 @@ async function getAllPosts() {
   })
 
   return allPosts
-  return allPosts.filter(item => item.data.title !== '我们')
 }
 
 // 获取所有文章，发布日期升序
