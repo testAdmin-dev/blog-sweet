@@ -2,8 +2,8 @@
   "site": {
     "url": "https://miss-you.top",
     "title": "Frank空间",
-    "description": "黄海欣的个人博客",
-    "keywords": "黄海欣的个人博客",
+    "description": "Frank个人博客",
+    "keywords": "Frank个人博客",
     "lang": "zh-CN",
     "favicon": "/favicon.ico",
     "appleTouchIcon": "/apple-touch-icon.png"
@@ -89,18 +89,5 @@
   },
   "sponsor": {
     "wechat": "https://public.miss-you.top/wechatSponsor.jpg"
-  },
-  "analytics": {
-    "enable": false,
-    "google": {
-      "measurementId": ""
-    },
-    "umami": {
-      "serverUrl": "",
-      "websiteId": ""
-    },
-    "microsoftClarity": {
-      "projectId": ""
-    }
   }
 }
