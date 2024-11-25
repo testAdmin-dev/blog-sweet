@@ -70,7 +70,7 @@ export function Waline({ articleId }: { articleId: number }) {
     commentForm?.current?.reset();
   };
 
-  const onHandleCloseCommentModal: DialogProps['onClose'] = (context) => {
+  const onHandleCloseCommentModal: DialogProps['onClose'] = () => {
     // 点击关闭按钮、按下ESC、点击蒙层等触发
     onCancelCommentModal();
   };
