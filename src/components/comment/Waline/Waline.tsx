@@ -8,58 +8,6 @@ import styles from './waline.module.less';
 
 const { FormItem } = Form;
 
-// import { init } from '@waline/client'
-// import '@waline/client/style'
-
-
-// export function Waline({ serverURL }: { serverURL: string }) {
-//   const ref = useRef<HTMLDivElement>(null)
-
-//   useEffect(() => {
-//     const walineInst = init({
-//       el: ref.current,
-//       serverURL,
-//       dark: "[data-theme='dark']",
-//       // 禁止登录
-//       login: 'disable',
-//       // 图片上传
-//       imageUploader: false,
-//       search: false,
-//       // 评论数量统计
-//       comment: true,
-//       locale: {
-//         placeholder: '发条友善的评论吧（支持 Markdown 语法）…',
-//       },
-//       // 流量太大 暂停使用
-//       // emoji: ['//unpkg.com/@waline/emojis@1.2.0/qq'],
-//       meta: ['nick', 'mail'],
-//       // 名称必填
-//       requiredMeta: ['nick'],
-//       // 评论字数限制
-//       wordLimit: 300,
-//       // 预览
-//       // texRenderer: false
-//       // 版权信息
-//       copyright: false,
-
-//     })
-
-//     console.log(walineInst)
-
-//     return () => {
-//       if (ref.current) {
-//         walineInst?.destroy()
-//       }
-//     }
-//   }, [serverURL])
-
-
-//   return <div ref={ref}></div>
-
-
-// }
-
-
 export function Waline({ articleId }: { articleId: number }) {
   const commentForm = useRef<FormInstanceFunctions>();
 
@@ -151,25 +99,22 @@ export function Waline({ articleId }: { articleId: number }) {
           onCancel={onCancelCommentModal}
           confirmLoading={commentSubmitLoading}
           style={{
-            maxWidth: '80vw'
+            maxWidth: '80vw',
           }}
         >
           <Form
             ref={commentForm}
-            // statusIcon={true}
             rules={rules}
             requiredMark
-          // layout="inline"
           >
-            <div className='w-11/12'>
+            <div>
               <FormItem
-                label="评论"
+                // label="评论"
                 name="content"
                 labelAlign="top"
               >
                 <Textarea
-                  placeholder="这里写你要留的言"
-                  tips="暂未做删除功能，谨慎其言，禁止网络暴力"
+                  placeholder="暂未做删除功能，谨慎其言，禁止网络暴力"
                   autosize={{
                     minRows: 3,
                     maxRows: 10

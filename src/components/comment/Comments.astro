@@ -5,5 +5,5 @@ const { articleId } = Astro.props
 ---
 
 <div>
-  {waline.serverURL && <Waline {...waline} client:idle articleId={articleId} />}
+  <Waline {...waline} client:idle articleId={articleId} client:load />
 </div>
