@@ -1,13 +1,13 @@
 ---
 title: 自述
-description: 这是一份站长的自述报告，请查收。
+description: 技术栈：HTML、CSS、JavaScript、React、Vue、Node、HarmonyOS、Python、MySQL、Git、Linux、Nginx
 comments: false
 ---
 
 ## 关于博客
-  **前端**  `React`  
+  **前端**  `Astro`、`React`
 
-  **后端**  `Python`
+  **后端**  `Python`、`MySQL`
 
 **内容**：文章不定期更新
 
@@ -16,9 +16,7 @@ comments: false
   - ...
 
 **待修复**
- - 移动端 评论弹窗底部描述和字数显示被挤压
- - 移动端 评论弹窗打开时左滑返回，弹窗未关闭，添加逻辑组件销毁前，弹窗关闭
- - 打开Markdown文档时页面会白一下，判断是否样式加载出错问题
+ - 评论弹窗打开时触发路由，弹窗未关闭
 
 
 ### v1.2.0
@@ -33,7 +31,7 @@ comments: false
   `2024-11-22`
   - 🆕 新增备案信息
   - 🆕 新增顶部加载进度条
-  - 🐞 修复 `TDesign` 样式未引入问题
+  - 🐞 ~~修复 `TDesign` 样式未引入问题（已移除TDesign）~~
 
 ### v1.0.0
 
