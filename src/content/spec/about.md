@@ -1,6 +1,6 @@
 ---
 title: 自述
-description: 技术栈：HTML、CSS、JavaScript、React、Vue、Node、HarmonyOS、Python、MySQL、Git、Linux、Nginx
+description: 技术栈：HTML、CSS、JavaScript、React、Vue、NodeJS、HarmonyOS、Python、MySQL、Git、Linux、Nginx
 comments: false
 ---
 

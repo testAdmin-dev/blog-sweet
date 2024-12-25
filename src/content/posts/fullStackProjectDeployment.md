@@ -29,8 +29,8 @@ ssh-keygen
 cat ~/.ssh/id_rsa.pub
 ```
 
-## 安装`Node`
-参考我博客中有一篇安装Node文章
+## 安装`NodeJS`
+参考我博客中有一篇安装NodeJS文章
 建议使用`nvm`方式安装
 
 ## 安装配置`Nginx`
