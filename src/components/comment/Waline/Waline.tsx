@@ -16,6 +16,15 @@ export function Waline({ articleId }: { articleId: number }) {
   const [commentSubmitLoading, setCommentSubmitLoading] = useState(false);
 
   useEffect(() => {
+    window.addEventListener('popstate', onCancelCommentModal)
+
+    return () => {
+      window.removeEventListener('popstate', onCancelCommentModal);
+    }
+  }, [])
+
+
+  useEffect(() => {
     onLoad();
   }, [articleId])
 
@@ -30,7 +39,7 @@ export function Waline({ articleId }: { articleId: number }) {
   const onOpenCommentModal = () => {
     setCommentFormModalVisible(true);
   };
-  const onConfirmCommentModal= async (context:any) => {
+  const onConfirmCommentModal = async (context: any) => {
     if (context?.e?.keyCode === 13) return;
 
     const result = await commentForm?.current?.validate()
